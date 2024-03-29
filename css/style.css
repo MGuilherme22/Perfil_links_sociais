@@ -15,6 +15,7 @@ main{
     height: auto;
     padding: 15px;
     border-radius: 10px;
+    position: fixed;
     background-color: hsl(0, 0%, 12%);
 }
 img{
@@ -57,6 +58,7 @@ button:hover{
 @media screen and (max-width: 375px){
     main{
         margin: 15px;
+        position: fixed;
     }
     img{
         margin-top: 15px;
